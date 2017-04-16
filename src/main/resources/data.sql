@@ -1,0 +1,1 @@
+CREATE TABLE employee(ID INT PRIMARY KEY, name VARCHAR(30), last_name VARCHAR(30), email VARCHAR(30), phone VARCHAR(30), active BOOLEAN);
