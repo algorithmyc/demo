@@ -1,4 +1,4 @@
-package controller;
+package com.example.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Employee;
-import service.EmployeeService;
+import com.example.model.Employee;
+import com.example.service.EmployeeService;
 
 @RestController
 public class EmployeeRestController {

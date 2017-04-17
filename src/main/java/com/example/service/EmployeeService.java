@@ -1,8 +1,8 @@
-package service;
+package com.example.service;
 
 import java.util.List;
 
-import model.Employee;
+import com.example.model.Employee;
 
 public interface EmployeeService {
 

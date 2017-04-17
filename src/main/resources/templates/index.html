@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:th="http://www.thymeleaf.org">
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
 <head>
 <meta charset="utf-8" />
-<title>Spring Boot + JPA + Datatables</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Spring Boot Datatable</title>
+</head>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -14,7 +19,7 @@
 	href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
 <script
 	src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-<script src="/datatable.js"></script>
+<script src="/js/datatable.js"></script>
 </head>
 
 <body>
@@ -29,7 +34,7 @@
 				<th>Last Name</th>
 				<th>Email</th>
 				<th>Phone</th>
-				<th>Active</th>
+
 			</tr>
 		</thead>
 		<!-- Footer Table -->
@@ -40,7 +45,7 @@
 				<th>Last Name</th>
 				<th>Email</th>
 				<th>Phone</th>
-				<th>Active</th>
+
 			</tr>
 		</tfoot>
 	</table>
